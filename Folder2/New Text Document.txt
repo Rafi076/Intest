@@ -1,2 +1,35 @@
-Hello,
-This is another test file pushed from 2nd branch!
+				branching-collaboration
+
+
+			Functionality		Commands to practice
+
+		
+			List branches		git branch
+
+			Create a branch		git branch feature
+
+			Create and switch	git switch -c feature
+
+			Switch branches		git switch main
+
+			Merge a branch		git merge feature
+
+			Check remotes		git remote -v
+
+			Add a remote		git remote add origin URL
+
+			Download remote updates	git fetch origin
+
+			Pull changes		git pull origin main
+
+			Push changes		git push origin main
+
+			Push a new branch	git push -u origin feature
+
+			Delete a local branch	git branch -d feature
+
+			Delete a remote branch	git push origin --delete feature
+
+			Resolve merge conflicts	Edit conflicting files, then git add and git commit
+
+			Compare branches	git diff main..feature
