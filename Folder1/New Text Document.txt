@@ -1,2 +1,35 @@
-Hi,
-This is testing file...
+			Git-basics
+
+
+     	Functionality			Commands to practice
+
+
+	Check Git installation		git --version
+
+	Configure identity		git config --global user.name "Your Name"
+
+	Configure email			git config --global user.email "you@example.com"
+
+	View configuration		git config --list
+
+	Initialize repository		git init
+
+	Clone a repository		git clone URL
+
+	Check repository status		git status
+
+	Add files to staging		git add file.txt, git add .
+
+	Remove tracked files		git rm file.txt
+
+	Ignore files			.gitignore
+
+	Commit changes			git commit -m "message"
+
+	View commit history		git log, git log --oneline
+
+	Compare changes			git diff, git diff --staged
+
+	Inspect a commit		git show
+
+	Rename or move files		git mv old.txt new.txt
